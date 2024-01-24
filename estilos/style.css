@@ -79,6 +79,9 @@ li {
 h1 {
     margin-left: 10%;
 }
+h3 {
+    font-weight: 600;
+}
 
 .banner {
     background-image: url(../medios/imagen_banner.jpeg);
@@ -154,8 +157,13 @@ h1 {
     grid-area: car2;
     background-size: cover;
     background-position: center;
-    padding: 10px;
+    /* padding: 10px; */
     border-radius: 10px;
+}
+.cine{
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
 }
 .card_3{
     background-color: #007ACC;
@@ -293,6 +301,9 @@ footer img {
     }
     .card_2{
         height: 500px;
+        border-radius: 0px;
+    }
+    .cine {
         border-radius: 0px;
     }
     .card_3{
