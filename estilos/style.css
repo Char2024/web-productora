@@ -59,6 +59,7 @@ nav{
 
 header ul {
     list-style: none;
+    margin-right: 5px;
 }
 
 header a {
@@ -152,6 +153,10 @@ h3 {
     grid-area: car1;
     border-radius: 10px;
 }
+.card_1 a {
+    color: #0D0D0D;
+    text-decoration: none;
+}
 .card_2{
     background-image: url(../medios/claqueta_card_2.jpg);
     grid-area: car2;
@@ -159,6 +164,10 @@ h3 {
     background-position: center;
     /* padding: 10px; */
     border-radius: 10px;
+}
+.card_2 a {
+    color: #0D0D0D;
+    text-decoration: none;  
 }
 .cine{
     background-color: rgba(255, 255, 255, 0.6);
@@ -171,11 +180,19 @@ h3 {
     padding: 10px;
     border-radius: 10px;
 }
+.card_3 a {
+    color: #0D0D0D;
+    text-decoration: none;
+}
 .card_4{
     background-color: #c6c8c9;
     grid-area: car4;
     padding: 10px;
     border-radius: 10px;
+}
+.card_4 a {
+    color: #0D0D0D;
+    text-decoration: none;
 }
 
     .presentacion {
