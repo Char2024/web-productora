@@ -284,6 +284,9 @@ footer img {
   header .logo_tipo {
     margin: 0px;
   }
+  header nav {
+    margin: 0px;
+  }
   .padre {
     display: flex;
     flex-direction: column;
@@ -307,9 +310,6 @@ footer img {
   .content {
     margin: 10px 0px;
     padding: 0px;
-  }
-  nav {
-    margin: 0px;
   }
   .perfil p {
     margin: 30px;
