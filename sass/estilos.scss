@@ -10,6 +10,7 @@
 */
 // partials
 @import "generales/variables";
+@import "generales/mixin";
 /*font*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
@@ -41,8 +42,7 @@ header {
         padding: 20px 0px 10px 0px;
     }
     .logo_tipo {
-        height: 100px;
-        width: auto;
+        @include tamanio( 100px , auto );
         margin-left: 10%;
     }
     nav{
