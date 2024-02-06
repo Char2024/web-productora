@@ -325,7 +325,8 @@ footer img {
     text-align: justify;
   }
   .perfilTexto p {
-    margin: 10px 0px;
+    margin: 10px 20px;
+    text-align: justify;
   }
   .iframe {
     width: 380px;
