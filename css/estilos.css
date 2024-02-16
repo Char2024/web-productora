@@ -31,6 +31,9 @@ header {
   position: sticky;
   top: 0;
 }
+header .link_logo {
+  margin-left: 10%;
+}
 header img {
   width: 100px;
   padding: 20px 0px 10px 0px;
@@ -38,7 +41,6 @@ header img {
 header .logo_tipo {
   height: 100px;
   width: auto;
-  margin-left: 10%;
 }
 header nav {
   margin-right: 10%;
