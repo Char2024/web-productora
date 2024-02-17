@@ -280,6 +280,11 @@ h3 {
     width: 400px;
     height: auto;
     display: inline;
+    background-color: #4DB8FF;
+    border: none;
+    &:hover {
+        background-color: #c6c8c9;
+    }
 }
 
 footer {
@@ -302,6 +307,7 @@ footer {
     bottom: 50px;
     right: 30px;
 }
+/*media query para movil*/
 @media only screen and (max-width: 480px){
     header{
         flex-direction: column;
