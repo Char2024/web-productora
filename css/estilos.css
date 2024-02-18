@@ -339,11 +339,12 @@ footer img {
     text-align: justify;
   }
   .iframe {
-    width: 380px;
+    width: 90%;
+    height: auto;
+    margin: auto;
   }
   .iframe p {
-    margin: 10px;
-    width: 380px;
+    width: 100%;
   }
   .contenedorGr {
     display: flex;
