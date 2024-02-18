@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*paleta de colores
 #0064A9 azul
 #4DB8FF celeste
@@ -90,7 +91,7 @@ h3 {
 .contenedorGr {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 300px 300px 300px;
+  /*grid-template-rows: 300px 300px 300px;*/
   margin: 0 10% 0 10%;
   padding: 10px;
   gap: 5px;
@@ -124,8 +125,9 @@ h3 {
 /* padre de index */
 .padre {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-rows: 250px 250px 250px;
+  grid-template-columns: minmax(0, auto) minmax(0, auto) minmax(0, auto);
+  /*grid-template-columns: 1fr 1fr 1fr;*/
+  /*grid-auto-rows: 250px 250px 250px;*/
   gap: 15px;
   width: 100%;
   grid-template-areas: "car1 car1 car2" "car3 car3 car2" "car4 car4 car4";
@@ -200,7 +202,7 @@ h3 {
 
 .form input {
   display: block;
-  width: 400px;
+  width: 600px;
   margin: 10px 0px 10px;
   padding: 10px;
 }
@@ -243,7 +245,8 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  width: 1120px;
+  justify-content: center;
+  width: 100%;
 }
 .iframe p {
   margin-top: 10px;
@@ -251,13 +254,13 @@ h3 {
 
 #mensaje {
   display: block;
-  width: 400px;
+  width: 600px;
   margin: 10px 0px 10px;
   padding: 10px;
 }
 
 #btnform {
-  width: 400px;
+  width: 600px;
   height: auto;
   display: inline;
   background-color: #4DB8FF;
@@ -355,6 +358,68 @@ footer img {
     bottom: 30px;
     right: 20px;
   }
+  .form input {
+    width: 360px;
+  }
+  section .form {
+    width: 360px;
+  }
+  #mensaje {
+    width: 360px;
+  }
+  #btnform {
+    width: 360px;
+  }
+}
+/*media queries para tablet*/
+@media only screen and (min-width: 481px) and (max-width: 950px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.2rem;
+  }
+  header .logo_tipo {
+    margin: 0px;
+    justify-content: center;
+  }
+  header .link_logo {
+    margin: 0px;
+    justify-content: center;
+  }
+  header nav {
+    margin: 0px;
+    justify-content: center;
+  }
+  .content {
+    margin: 0px;
+  }
+  .padre {
+    display: grid;
+    grid-template-columns: minmax(0, auto) minmax(0, auto);
+    grid-template-areas: "car1 car2" "car3 car3" "car4 car4";
+  }
+  .perfilTexto p {
+    margin: 20px;
+  }
+  .iframe {
+    width: auto;
+    justify-content: center;
+  }
+  .iframe p {
+    width: 80%;
+    text-align: justify;
+  }
+  /*galería*/
+  .contenedorGr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 10% 0 10%;
+    padding: 10px;
+    gap: 5px;
+    margin-top: 5px;
+    grid-area: "";
+  }
+  /*formulario de contacto*/
   .form input {
     width: 360px;
   }
