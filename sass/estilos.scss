@@ -11,8 +11,11 @@
 // partials
 @import "generales/variables";
 @import "generales/mixin";
+@import "generales/header";
+@import "generales/main";
 /*font*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 html {
     font-size: 62.5%;
@@ -28,73 +31,8 @@ body {
 
 
 
-header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.836);
-    position: sticky;
-    top: 0;
-    .link_logo {
-        margin-left: 10%;
-    }
-    img {
-        width: 100px;
-        padding: 20px 0px 10px 0px;
-    }
-    .logo_tipo {
-        @include tamanio( 100px , auto );
-        
-    }
-    nav{
-        margin-right: 10%;
-        ul {
-            list-style: none;
-            margin-right: 5px;
-            li {
-                display: inline-block;
-                padding: 5px;
-            }
-        }
-    }
-    
-    a {
-    text-decoration: none;
-    color: black;
-    &:hover {
-        color: #4DB8FF;
-    }
-}
-    
 
-    
-}
-main {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: stretch;
-    .banner {
-        background-image: url(../medios/imagen_banner.jpeg);
-        height: 200px;
-        background-size: cover;
-        background-position: center;
-        text-align: left;
-        
-        color: white;
-        padding: 10px;
-        width: auto;
-    }
- }
 
-h1 {
-    margin-left: 10%;
-}
-h3 {
-    font-weight: 600;
-}
 
 
 /* galeria del index */
@@ -264,7 +202,8 @@ h3 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 100%;    
+    width: 100%;
+    
     p{
         margin-top: 10px;
     }

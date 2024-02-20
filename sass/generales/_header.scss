@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.836);
+    position: sticky;
+    top: 0;
+    .link_logo {
+        margin-left: 10%;
+    }
+    img {
+        width: 100px;
+        padding: 20px 0px 10px 0px;
+    }
+    .logo_tipo {
+        @include tamanio( 100px , auto );
+        
+    }
+    nav{
+        margin-right: 10%;
+        ul {
+            list-style: none;
+            margin-right: 5px;
+            li {
+                display: inline-block;
+                padding: 5px;
+            }
+        }
+    }
+    
+    a {
+    text-decoration: none;
+    color: black;
+    &:hover {
+        color: #4DB8FF;
+    }
+}
+    
+
+    
+}
