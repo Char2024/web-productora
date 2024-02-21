@@ -13,6 +13,11 @@
 @import "generales/mixin";
 @import "generales/header";
 @import "generales/main";
+@import "generales/padre";
+@import "generales/item";
+@import "generales/content";
+@import "generales/contenedorGr";
+@import "generales/cards";
 /*font*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
@@ -35,105 +40,13 @@ body {
 
 
 
-/* galeria del index */
-.contenedorGr {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    /*grid-template-rows: 300px 300px 300px;*/
-    margin: 0 10% 0 10%;
-    padding: 10px;
-    gap: 5px;
-    margin-top: 5px;
-    grid-area: 
-    "";  
-    div{
-        justify-items: center;       
-    }   
-   
-}
-.item{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    img{
-        width: 100%;
-        object-fit: cover;
-    }
-}
+
+
 
     
-.content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #E8E0E0;
-    margin: 0 10% 0 10%;
-    padding: 10px 10px;
-}
-/* padre de index */
-.padre{
-    display: grid;
-    grid-template-columns: minmax(0, auto) minmax(0, auto) minmax(0, auto);
-    /*grid-template-columns: 1fr 1fr 1fr;*/
-    /*grid-auto-rows: 250px 250px 250px;*/
-    gap:15px;
-    width: 100%;
-    grid-template-areas: 
-    "car1 car1 car2"
-    "car3 car3 car2"
-    "car4 car4 car4";
-}
-/* cards de grid */
-.card_1{
-    padding: 10px;
-    background-color: $azulClaro;
-    grid-area: car1;
-    border-radius: 10px;
-    a {
-        color: #0D0D0D;
-        text-decoration: none;
-    }
-}
 
-.card_2{
-    background-image: url(../medios/claqueta_card_2.jpg);
-    grid-area: car2;
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-    a {
-        color: #0D0D0D;
-        text-decoration: none;  
-    }
-}
 
-.cine{
-    background-color: rgba(255, 255, 255, 0.6);
-    padding: 10px;
-    border-radius: 10px 10px 0px 0px;
-}
-.card_3{
-    background-color: $azulClaro;
-    grid-area: car3;
-    padding: 10px;
-    border-radius: 10px;
-    a {
-        color: #0D0D0D;
-        text-decoration: none;
-    }
-}
 
-.card_4{
-    background-color: #c6c8c9;
-    grid-area: car4;
-    padding: 10px;
-    border-radius: 10px;
-    a {
-        color: #0D0D0D;
-        text-decoration: none;
-    }
-}
 
 
     .presentacion {

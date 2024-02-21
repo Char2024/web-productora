@@ -1,0 +1,9 @@
+.item{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,16 @@
+/* grids del index */
+.contenedorGr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*grid-template-rows: 300px 300px 300px;*/
+    margin: 0 10% 0 10%;
+    padding: 10px;
+    gap: 5px;
+    margin-top: 5px;
+    grid-area: 
+    "";  
+    div{
+        justify-items: center;       
+    }   
+   
+}
