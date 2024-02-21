@@ -234,6 +234,32 @@ h3 {
   margin-top: 10px;
 }
 
+/*formulario de ocntacto*/
+.form input {
+  display: block;
+  width: 600px;
+  margin: 10px 0px 10px;
+  padding: 10px;
+}
+
+#mensaje {
+  display: block;
+  width: 600px;
+  margin: 10px 0px 10px;
+  padding: 10px;
+}
+
+#btnform {
+  width: 600px;
+  height: auto;
+  display: inline;
+  background-color: #4DB8FF;
+  border: none;
+}
+#btnform:hover {
+  background-color: #c6c8c9;
+}
+
 footer {
   background-color: #007ACC;
   padding: 20px;
@@ -246,18 +272,7 @@ footer img {
   padding-right: 5px;
 }
 
-/*font*/
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
-  margin: 0px;
-  background-color: #E8E0E0;
-}
-
+/*boton flotande de whatsapp*/
 .btn-wp {
   position: fixed;
   width: 55px;
@@ -409,6 +424,17 @@ body {
   #btnform {
     width: 360px;
   }
+}
+/*font*/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  margin: 0px;
+  background-color: #E8E0E0;
 }
 
 /*# sourceMappingURL=estilos.css.map */

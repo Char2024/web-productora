@@ -1,0 +1,69 @@
+
+/*media queries para tablet*/
+
+@media only screen and (min-width: 481px) and (max-width: 950px)  {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1.2rem;
+
+        .logo_tipo {
+            margin: 0px;
+            justify-content: center;
+        }
+        .link_logo {
+            margin: 0px;
+            justify-content: center;
+
+        }
+        nav {
+            margin: 0px;
+            justify-content: center;
+        }
+    }
+    .content {
+        margin: 0px;
+    }
+    .padre {
+        display: grid;
+        grid-template-columns: minmax(0, auto) minmax(0, auto);
+        grid-template-areas: "car1 car2" "car3 car3" "car4 car4";
+    }
+    .perfilTexto p {
+        margin: 20px;
+    }
+    .iframe {
+        width: auto;
+        justify-content: center;
+        p {
+            width: 80%;
+            text-align: justify;
+        } 
+    }
+/*galería*/
+    
+    .contenedorGr {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 10% 0 10%;
+        padding: 10px;
+        gap: 5px;
+        margin-top: 5px;
+        grid-area: "";
+    }
+
+/*formulario de contacto*/
+
+   .form input {
+        width: 360px;
+    }
+    section .form{
+        width: 360px;
+    }
+    #mensaje{
+        width: 360px;
+    }
+    #btnform{
+        width: 360px;
+    } 
+}
