@@ -1,4 +1,6 @@
 /*media query para movil*/
+
+
 @media only screen and (max-width: 480px){
     header{
         flex-direction: column;
@@ -83,4 +85,28 @@
         width: 360px;
     }
         
+}
+
+@media only screen and (max-width: 360px){
+   
+    /*nav bar*/
+   
+    li {
+        font-size: 1rem;
+    }
+
+    /*formulario*/
+
+    .form input {
+        width: 300px;
+    }
+    section .form{
+        width: 300px;
+    }
+    #mensaje{
+        width: 300px;
+    }
+    #btnform{
+        width: 300px;
+    }
 }
