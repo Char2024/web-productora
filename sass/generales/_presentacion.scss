@@ -1,0 +1,14 @@
+.presentacion {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #0D0D0D;
+    padding: 10px 0px;
+    p {
+        font-size: 1.5rem;        
+    }
+    img {
+        height: 300px;
+        width: auto;
+    }
+}

@@ -18,6 +18,12 @@
 @import "generales/content";
 @import "generales/contenedorGr";
 @import "generales/cards";
+@import "generales/presentacion";
+@import "generales/perfil";
+@import "generales/galeria";
+@import "generales/iframe";
+@import "generales/footer";
+
 /*font*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
@@ -49,109 +55,28 @@ body {
 
 
 
-    .presentacion {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        color: #0D0D0D;
-        padding: 10px 0px;
-        p {
-            font-size: 1.5rem;        
-        }
-        img {
-            height: 300px;
-            width: auto;
-        }
-    }
+    
 
     
-    .form input {
-        display: block;
-        width: 600px;
-        margin: 10px 0px 10px;
-        padding: 10px;
-    }
-
-
-.perfil{
-    display: flex;
-    justify-content: center;
-    p{
-        margin: 30px 200px 30px 200px;
-    }
-    img {
-        width: 300px;
-        height: auto;
-        border-radius: 50%;
-    }
-}
-.perfilTexto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    p {
-        margin: 20px 200px;
-    }
-    }
-
-
-.galeria{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    img{
-        display: flex;
-        flex-direction: row;
-        justify-items: center;
-        height: 300px;
-        
-    }
-}
+   
 
 
 
-.iframe {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    
-    p{
-        margin-top: 10px;
-    }
-}
 
 
-#mensaje {
-    display: block;
-    width: 600px;
-    margin: 10px 0px 10px;
-    padding: 10px;
-}
 
-#btnform {
-    width: 600px;
-    height: auto;
-    display: inline;
-    background-color: #4DB8FF;
-    border: none;
-    &:hover {
-        background-color: #c6c8c9;
-    }
-}
 
-footer {
-    background-color: $azulClaro;
-    padding: 20px;
-    color: #0D0D0D;
-    text-align: center;
-    img {
-        width: 30px;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 .btn-wp {
